@@ -21,3 +21,5 @@ script:
   - yarn test:check-coverage
 after_script:
   - yarn report-coverage
+notifications:
+  email: false
