@@ -1,6 +1,8 @@
 language: node_js
 node_js:
   - "8.9.1"
+env:
+  - JWT_SECRET=test
 services:
   - mongodb
 cache:
